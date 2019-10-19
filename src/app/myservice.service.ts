@@ -14,7 +14,7 @@ export class MyserviceService {
     let ndate = new Date(); 
     return ndate; 
  } 
- getData(){
-   return this.http.get(this.apiurl);
- }
+//  getData(){
+//    return this.http.get(this.apiurl);
+//  }
 }
