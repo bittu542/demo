@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { MyserviceService } from './myservice.service';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { FormGroup, FormControl, Validators} from '@angular/forms';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
