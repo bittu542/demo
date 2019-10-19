@@ -26,12 +26,12 @@ export class AppComponent {
      } 
      ngOnInit() { 
       this.todaydate = this.myservice.showTodayDate(); 
-      this.myservice.getData().subscribe((data)=>{
-      //  this.albumdetails = Array.from(Object.keys(data), k=>data[k]);
-         this.personal = Array.from(Object.keys(data),k=>data[k]);
-        // console.log(this.personal);
-        // console.log(data['0']['email']);
-      })
+      // this.myservice.getData().subscribe((data)=>{
+      // //  this.albumdetails = Array.from(Object.keys(data), k=>data[k]);
+      //    this.personal = Array.from(Object.keys(data),k=>data[k]);
+      //   // console.log(this.personal);
+      //   // console.log(data['0']['email']);
+      // })
       
    } 
    onClickSubmit(data) {
