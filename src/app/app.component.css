@@ -1,0 +1,52 @@
+a:link, a:visited { 
+    background-color: #848686; 
+    color: white; 
+    padding: 10px 25px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+ } 
+ a:hover, a:active {
+    background-color: #BD9696;
+ }
+ table {
+    width: 100%;
+ }
+ cdk-virtual-scroll-viewport {
+    height: 500px;
+ }
+ .divlayout{
+    width: 40%;
+    background-color: #ccc;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    border: 3px solid #73AD21;
+ }
+ .example-container { 
+   width: 500px;  
+   height: 300px; 
+   border: 1px solid rgba(0, 0, 0, 0.5); 
+}
+.example-sidenav { 
+   padding: 20px; 
+   width: 150px; 
+   font-size: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.5); 
+   background-color: #ccc; 
+   color:white; 
+}
+input[type = text], input[type = password] { 
+   width: 40%; 
+   padding: 12px 20px; 
+   margin: 8px 0; 
+   display: inline-block; 
+   border: 1px solid #B3A9A9; 
+   box-sizing: border-box; 
+} 
+input[type = submit] { 
+   padding: 12px 20px; 
+   margin: 8px 0; 
+   display: inline-block; 
+   border: 1px solid #B3A9A9; 
+   box-sizing: border-box; 
+}
